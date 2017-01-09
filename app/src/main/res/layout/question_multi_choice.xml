@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/question_multi_text"
+        style="@style/Question"
+        android:text="default"
+        android:layout_margin="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/a1_multi"
+            style="@style/Answer"
+            android:text="default1" />
+
+        <CheckBox
+            android:id="@+id/a2_multi"
+            style="@style/Answer"
+            android:text="default2" />
+
+        <CheckBox
+            android:id="@+id/a3_multi"
+            style="@style/Answer"
+            android:text="default3" />
+    </LinearLayout>
+</LinearLayout>
